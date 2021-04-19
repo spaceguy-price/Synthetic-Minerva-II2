@@ -13,7 +13,7 @@ The real Minerva-II2 images are copyright to the Hayabusa 2 Optical Navigation C
 For any questions or difficulties regarding accessing the dataset, please feel free to contact the authors. 
 pricea@dc.tohoku.ac.jp
 
-# Annotation File Format
+## Annotation File Format
 
 The SetA and SetB datasets are split into |Train(80%)|Val(10%)|Test(10%)|, However all rendered images come from the same domain and thus the datasets may be remixed or used as desired.
 
