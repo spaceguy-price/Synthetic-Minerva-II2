@@ -6,7 +6,7 @@ Contains the synthetic dataset developed for our CVPR2021 paper:
 
 Images shared under CC0.
 
-***Synthetic*** Minerva-II2 images currently available for download at:
+***Synthetic*** Minerva-II2 images currently available for download at
 [Price's Google Drive](https://drive.google.com/drive/folders/1ZhmzKEgsCmU2jB3aZuLk97uaa4_9o4dP?usp=sharing)
 
 The ***real*** Minerva-II2 images are copyright to the Hayabusa 2 Optical Navigation Camera (ONC) system team: JAXA, Chiba Institute of Technology, University of Tokyo, Kochi University, Rikkyo University, Nagoya University, University of Aizu and AIST. For access to the real Minerva-II2 deployment images permission will need to be obtained from JAXA. 
