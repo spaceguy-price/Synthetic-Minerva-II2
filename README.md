@@ -23,8 +23,8 @@ Three annotation files are shared. Their content format is identical.
 ### Annotation File Format
 The annotation files are formatted with the following members:
 - image: image name
-- joints: pixel locations of vertices || [pixels, pixels]
-- pose: camera frame pose of the Minerva-II2 target || [q0,q1,q2,q3,m,m,m]
+- joints: pixel locations of vertices [pixels, pixels]
+- pose: camera frame pose of the Minerva-II2 target [q0,q1,q2,q3,m,m,m]
 - Example entry:
 ```
 '{
