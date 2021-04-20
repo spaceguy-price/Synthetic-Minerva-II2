@@ -37,12 +37,12 @@ The "joints" member contains 16 [x,y] pairs indicating the location of a vertice
 The "pose" member is a 1x7 vector containing the camera frame pose of the Minerva-II2 (quaternion|cartesian vector).
 
 If desired, one can generate their own "joints" annotations for training based on the pose. We include the joints information here for convenience. Please note, the datasets have a slight distinction:
-- The SetA   "pose" [cartesian] vector points to the [0.875, -0.04, 4.76]<sub>MinervaII2_bodyFrame</sub>
-- The SetB   "pose" [cartesian] vector points to the [0, 0, 0]<sub>MinervaII2_bodyFrame</sub>
-- The Tumble "pose" [cartesian] vector points to the [0, 0, 0]<sub>MinervaII2_bodyFrame</sub>
+- The [SetA](setA_annotations.json)   "pose" [cartesian] vector points to the [0.875, -0.04, 4.76]<sub>MinervaII2_bodyFrame</sub>
+- The [SetB](setB_annotations.json)   "pose" [cartesian] vector points to the [0, 0, 0]<sub>MinervaII2_bodyFrame</sub>
+- The [Tumble](Tumble_annotations.json) "pose" [cartesian] vector points to the [0, 0, 0]<sub>MinervaII2_bodyFrame</sub>
 
 ### Minerva-II2 vertices
-The geometry of the Minerva-II2 vertices are shared in MinervaII2_Vertices.txt. The values are in [mm].
+The geometry of the Minerva-II2 vertices are shared in [MinervaII2_Vertices.txt](MinervaII2_Vertices.txt). The values are in [mm].
 
 ### Virtual Camera Rendering Parameters
 The renderings were designed to match the Hayabusa2 ONC-W2 camera parameters.
