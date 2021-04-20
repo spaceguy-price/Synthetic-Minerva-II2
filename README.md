@@ -1,6 +1,8 @@
 # Synthetic-Minerva-II2
 Contains the synthetic dataset developed for our CVPR2021 paper:
+
 :rocket: A Monocular Pose Estimation Case Study: The Hayabusa2 Minerva-II2 Deployment. :rocket:
+<img width="512" height="512" src="tumble.jpg"/>
 
 Images shared under CC0.
 
