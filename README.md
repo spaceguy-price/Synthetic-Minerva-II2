@@ -25,7 +25,7 @@ The annotation files are formatted with the following members:
 - image: image name
 - joints: pixel locations of vertices    [pixels]
 - pose: camera frame pose of the Minerva-II2 target          [quaternion|metres]
-Example entry:
+- Example entry:
 ```
 '{
   "image":"image_1.png",
