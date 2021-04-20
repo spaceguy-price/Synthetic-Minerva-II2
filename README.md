@@ -37,9 +37,9 @@ The "joints" member contains 16 [x,y] pairs indicating the location of a vertice
 The "pose" member is a 1x7 vector containing the camera frame pose of the Minerva-II2 (quaternion|cartesian vector).
 
 If desired, one can generate their own "joints" annotations for training based on the pose. We include the joints information here for convenience. Please note, the datasets have a slight distinction:
-- The SetA   "pose" [cartesian] vector points to the [0.875, -0.04, 4.76]_MinervaII2_bodyFrame
-- The SetB   "pose" [cartesian] vector points to the [0, 0, 0]_MinervaII2_bodyFrame
-- The Tumble "pose" [cartesian] vector points to the [0, 0, 0]_MinervaII2_bodyFrame
+- The SetA   "pose" [cartesian] vector points to the [0.875, -0.04, 4.76]<sub>MinervaII2_bodyFrame</sub>
+- The SetB   "pose" [cartesian] vector points to the [0, 0, 0]<sub>MinervaII2_bodyFrame</sub>
+- The Tumble "pose" [cartesian] vector points to the [0, 0, 0]<sub>MinervaII2_bodyFrame</sub>
 
 ### Minerva-II2 vertices
 The geometry of the Minerva-II2 vertices are shared in MinervaII2_Vertices.txt. The values are in [mm].
