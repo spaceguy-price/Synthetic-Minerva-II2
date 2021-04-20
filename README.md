@@ -1,4 +1,4 @@
-## Synthetic-Minerva-II2
+# Synthetic-Minerva-II2
 Contains the synthetic dataset developed for our CVPR2021 paper.
 
 :rocket: A Monocular Pose Estimation Case Study: The Hayabusa2 Minerva-II2 Deployment.
@@ -13,12 +13,13 @@ The ***real*** Minerva-II2 images are copyright to the Hayabusa 2 Optical Naviga
 For any questions or difficulties regarding accessing the dataset, please feel free to contact the authors. 
 pricea@dc.tohoku.ac.jp
 
-### Annotation File Format
+## Annotation Files
 Three annotation files are shared. Their content format is identical.
 1. SetA
 2. SetB
 3. Tumble
 
+### Annotation File Format
 The annotation files are formatted with the following members:
 - "image": "image_#.png"
 - "joints": [[x1,y1],[x2,y2],...[x16,y16]]    [pixels]
@@ -43,3 +44,13 @@ The renderings were designed to match the Hayabusa2 ONC-W2 camera parameters.
 - sensor size:   13um x 13um
 - focal length:  10.38 mm
 - field of view: 68.89 deg
+
+## Citation
+The dataset development is described in our paper.
+
+@inproceedings{Price21,
+  title={A Monocular Pose Estimation Case Study: The Hayabusa2 Minerva-II2 Deployment},
+  author={Price, Andrew and Yoshida, Kazuya},
+  booktitle={CVPR},
+  year={2021}
+}
