@@ -48,10 +48,11 @@ The renderings were designed to match the Hayabusa2 ONC-W2 camera parameters.
 
 ## Citation
 The dataset development is described in our paper.
-
+'''
 @inproceedings{Price21,
   title={A Monocular Pose Estimation Case Study: The Hayabusa2 Minerva-II2 Deployment},
   author={Price, Andrew and Yoshida, Kazuya},
   booktitle={CVPR},
   year={2021}
 }
+'''
