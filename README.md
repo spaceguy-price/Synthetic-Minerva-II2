@@ -22,12 +22,17 @@ Three annotation files are shared. Their content format is identical.
 
 ### Annotation File Format
 The annotation files are formatted with the following members:
-- "image": "image_#.png"
-- "joints": [[x1,y1],[x2,y2],...[x16,y16]]    [pixels]
-- "pose": [q0, q1, q2, q3, x, y, z]           [quaternion|metres]
+- image: image name
+- joints: pixel locations of vertices    [pixels]
+- pose: camera frame pose of the Minerva-II2 target          [quaternion|metres]
+```
 Example entry:
-'{"image":"image_1.png","joints":[[1,1],[2,2],[3,3],[4,4],[5,5],[6,6],[7,7],[8,8],[9,9],[10,10],[11,11],[12,12],[13,13],[14,14],[15,15],[16,16]],"pose":[1,0,0,0,0,0,0.5]}'
-
+'{
+  "image":"image_1.png",
+  "joints":[[1,1],[2,2],[3,3],[4,4],[5,5],[6,6],[7,7],[8,8],[9,9],[10,10],[11,11],[12,12],[13,13],[14,14],[15,15],[16,16]],
+  "pose":[1,0,0,0,0,0,0.5]
+}'
+```
 The "joints" member contains 16 [x,y] pairs indicating the location of a vertice in the image.
 The "pose" member is a 1x7 vector containing the camera frame pose of the Minerva-II2 (quaternion|cartesian vector).
 
