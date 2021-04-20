@@ -16,9 +16,9 @@ pricea@dc.tohoku.ac.jp
 
 ## Annotation Files
 Three annotation files are shared. Their content format is identical.
-1. SetA   - A set of ~10,000 images with a symmetric    Minerva-II2 target. The set was designed to replicate real Minerva-II2 deployment images.
-2. SetB   - A set of ~10,000 images with a nonsymmetric Minerva-II2 target. The set was designed to work with the Tumble dataset.
-3. Tumble - A set of  300    images with a nonsymmetric Minerva-II2 target. The set was designed to challenge a pose estimation pipeline to recover and estimate tumbling motion.
+1. [SetA](setA_annotations.json)   - A set of ~10,000 images with a symmetric    Minerva-II2 target. The set was designed to replicate real Minerva-II2 deployment images.
+2. [SetB](setB_annotations.json)   - A set of ~10,000 images with a nonsymmetric Minerva-II2 target. The set was designed to work with the Tumble dataset.
+3. [Tumble](Tumble_annotations.json) - A set of  300    images with a nonsymmetric Minerva-II2 target. The set was designed to challenge a pose estimation pipeline to recover and estimate tumbling motion.
 
 ### Annotation File Format
 The annotation files are formatted with the following members:
