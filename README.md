@@ -14,6 +14,9 @@ The ***real*** Minerva-II2 images are copyright to the Hayabusa 2 Optical Naviga
 For any questions or difficulties regarding accessing the dataset, please feel free to contact the authors. 
 pricea@dc.tohoku.ac.jp
 
+Supplementary Video:
+https://youtu.be/87R-tGOvD4U
+
 ## Annotation Files
 Three annotation files are shared. Their content format is identical.
 1. [SetA](setA_annotations.json)   - A set of ~10,000 images with a symmetric    Minerva-II2 target. The set was designed to replicate real Minerva-II2 deployment images.
